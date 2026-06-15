@@ -1,0 +1,5 @@
+// Root build.gradle
+subprojects {
+    // IntelliJ's Kotlin plugin sometimes asks for this task even if you don't use Kotlin.
+    tasks.register("prepareKotlinBuildScriptModel") { /* no-op */ }
+}

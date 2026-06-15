@@ -1,0 +1,35 @@
+plugins {
+    id "java"
+    id "application"
+    id "pmd"
+    id "org.openjfx.javafxplugin" version "0.1.0"
+}
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = "edu.curtin.saed.assignment1.app.App"
+}
+
+javafx {
+    version = "19.0.2.1"
+    modules = [ "javafx.controls" ]
+}
+
+dependencies {
+    implementation project(":2025_assignment1_comms")
+}
+
+pmd {
+    consoleOutput = true
+    toolVersion = "7.15.0"
+    rulesMinimumPriority = 5
+    ruleSets = []
+    ruleSetFiles = files("saed-pmd-rules.xml")
+}
+
+tasks.withType(JavaCompile) {
+    options.compilerArgs << "-Xlint:all,-serial"
+}
