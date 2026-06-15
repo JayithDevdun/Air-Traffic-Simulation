@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="2025_assignment1_comms" target="21" />
+      <module name="air-traffic-sim.2025_assignment1_comms" target="21" />
+      <module name="air-traffic-sim.2025_assignment1_comms.main" target="21" />
+      <module name="air-traffic-sim.2025_assignment1_comms.test" target="21" />
+      <module name="air-traffic-sim.2025_assignment1_start_javafx" target="21" />
+      <module name="air-traffic-sim.2025_assignment1_start_javafx.main" target="21" />
+      <module name="air-traffic-sim.2025_assignment1_start_javafx.test" target="21" />
+      <module name="saed2025_assignment1_comms_demo" target="21" />
+      <module name="saed2025_assignment1_comms_demo.main" target="21" />
+      <module name="saed2025_assignment1_comms_demo.test" target="21" />
+      <module name="saed2025_assignment1_start_javafx" target="21" />
+      <module name="saed2025_assignment1_start_javafx.main" target="21" />
+      <module name="saed2025_assignment1_start_javafx.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
